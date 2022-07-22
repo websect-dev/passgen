@@ -1,15 +1,17 @@
 {
   "name": "passgen",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "repository": "https://github.com/websect-dev/passgen",
+  "readme": "https://github.com/websect-dev/passgen#readme",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "cs:lint": "eslint --ext .ts,.tsx,.js,.jsx --ignore-path .gitignore .",
     "cs:fix": "eslint --ext .ts,.tsx,.js,.jsx --ignore-path .gitignore . --fix",
-    "stylelint:lint": "npx stylelint './**/*.scss' -q --config ./stylelint.config.js",
-    "stylelint:fix": "npx stylelint --fix './**/*.scss' -q --config ./stylelint.config.js"
+    "stylelint:lint": "stylelint './**/*.scss' -q --config ./stylelint.config.js",
+    "stylelint:fix": "stylelint --fix './**/*.scss' -q --config ./stylelint.config.js"
   },
   "dependencies": {
     "react": "^18.2.0",

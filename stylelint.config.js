@@ -24,11 +24,15 @@ module.exports = {
     'selector-type-no-unknown': true,
     'scss/no-global-function-names': null,
     'media-feature-name-no-unknown': true,
+    'scss/at-if-closing-brace-newline-after': null,
+    'scss/at-if-closing-brace-space-after': null,
+    'scss/at-else-empty-line-before': null,
+    'scss/at-else-closing-brace-newline-after': null,
+    'scss/at-else-closing-brace-space-after': null,
     'scss/at-rule-no-unknown': [
       true,
       {
         ignoreAtRules: [
-          'tailwind',
           'apply',
           'variants',
           'responsive',
